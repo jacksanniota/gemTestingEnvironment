@@ -1,0 +1,36 @@
+// {
+//   "compilerOptions": {
+//     "module": "commonjs",
+//     "esModuleInterop": true,
+//     "target": "es6",
+//     "moduleResolution": "node",
+//     "sourceMap": true,
+//     "outDir": "dist",
+//     "typeRoots": ["./src/types", "./node_modules/@types"]
+//   },
+//   "lib": ["es2015"]
+// }
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es2021",               
+    "module": "commonjs",       
+     "sourceMap": true,                                
+     "outDir": "dist",                              
+     "removeComments": true,                     
+    "strict": false,                               
+     "moduleResolution": "node",               
+     "typeRoots": ["./src/types", "./node_modules/@types"]  ,              
+     "esModuleInterop":true,        
+    "skipLibCheck": false,                           
+    "forceConsistentCasingInFileNames": false  ,  
+    "downlevelIteration": true,
+     "lib": ["ES2021.String"],
+    "allowJs": true   
+    //"watch": true
+  },
+  "include":["./src/**/*"],
+  
+  //"files": ["src/index.ts"],
+  "exclude": ["node_modules"],
+}
